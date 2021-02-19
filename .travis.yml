@@ -1,0 +1,22 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : undertow-core
+# Source Repo         : https://github.com/undertow-io/undertow.git
+# Travis Job Link     : 
+# Created travis.yml  : Yes
+# Maintainer          : Santosh Kulkarni <santoshkulkarni70@gmail.com>
+#
+# Script License      : Apache 2.0
+#
+# ----------------------------------------------------------------------------
+arch: 
+  - amd64
+  - ppc4le
+  
+language: java
+jdk: 
+  - openjdk8
+  - openjdk11
+script:
+  - mvn install
+  
